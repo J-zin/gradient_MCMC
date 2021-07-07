@@ -42,7 +42,7 @@ def particles_visual_1dgaussian(model_name='svgd'):
     print("approximate mean: ", np.mean(theta_list[-1]))
     print("true mean: ", -1/3 * 2 + 2/3 * 2)
     plt.show()
-    # anim.save('1dld.gif', writer='pillow', fps=50)
+    # anim.save('1dsvgd.gif', writer='pillow', fps=50)
 
 def kde_visual_1dgaussian(model_name='svgd'):
     # draw 1d gaussian
