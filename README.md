@@ -12,9 +12,7 @@ python runexp.py
 
 ### 1D Gaussian Mixture
 
-$$
-p(x) = \frac{1}{3}\mathcal{N}(-2, 1) + \frac{2}{3}\mathcal{N}(2, 1)
-$$
+<img src="image/1dgaussian.png" width="40%">
 
 | <img src="image/1dsvgd.gif" width="100%"> | <img src="image/1dld.gif" width="100%"> |
 | :--------------------------------------: | :------------------------------------: |
@@ -23,21 +21,7 @@ $$
 
 ### 2D Gaussian Mixture
 
-$$
-p(x) = \frac{5}{4}\mathcal{N}(\left[\begin{array}{c}
-    5\\  
-    5\\
-  \end{array}\right], \left[\begin{array}{cc}
-    1 & 0 \\ 
-    0 & 1 \\
-  \end{array}\right]) + \frac{1}{5}\mathcal{N}(\left[\begin{array}{c}
-    -5\\  
-    -5\\
-  \end{array}\right], \left[\begin{array}{cc}
-    1 & 0 \\ 
-    0 & 1 \\
-  \end{array}\right])
-$$
+<img src="image/2dgaussian.png" width="40%">
 
 | <img src="image/2dsvgd.gif" width="100%"> | <img src="image/2dld.gif" width="100%"> |
 | :--------------------------------------: | :------------------------------------: |
